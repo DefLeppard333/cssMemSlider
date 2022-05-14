@@ -9,7 +9,50 @@
 </head>
 <body>
     <div class="container">
-        
+        <div class="slider">
+			<input type="radio" id="img1" class="slider__control" name="pagination" checked>
+			<input type="radio" id="img2" class="slider__control" name="pagination">
+			<input type="radio" id="img3" class="slider__control" name="pagination">
+			<input type="radio" id="img4" class="slider__control" name="pagination">
+			<input type="radio" id="img5" class="slider__control" name="pagination">
+
+			<div class="slider__items">
+				<div class="slider__item slide">
+					<img src="images/img1.jpg" alt="img" class="slide__img">
+				</div>
+				<div class="slider__item  slide" id="slide2">
+					<img src="images/img2.jpg" alt="img" class="slide__img">
+				</div>
+				<div class="slider__item  slide" id="slide3">
+					<img src="images/img3.jpg" alt="img" class="slide__img">
+				</div>
+				<div class="slider__item  slide" id="slide4">
+					<img src="images/img4.jpg" alt="img" class="slide__img">
+				</div>
+				<div class="slider__item  slide" id="slide5">
+					<img src="images/img5.jpg" alt="img" class="slide__img">
+				</div>
+			</div>
+
+			<div class="slider__wrapper">
+				<div class="slider__controls">
+					<label for="img1" tabindex="1"><span></span></label>
+					<label for="img2" tabindex="2"><span></span></label>
+					<label for="img3" tabindex="3"><span></span></label>
+					<label for="img4" tabindex="4"><span></span></label>
+					<label for="img5" tabindex="4"><span></span></label>
+				</div>
+				
+				<div class="slider__desc">
+					<div class="slide__desc description">Lorem ipsum dolor sit amet consectetur</div>
+					<div class="slide__desc description">Lorem ipsum dolor sit amet consectetur</div>
+					<div class="slide__desc description">Lorem ipsum dolor sit amet consectetur</div>
+					<div class="slide__desc description">Lorem ipsum dolor sit amet consectetur</div>
+					<div class="slide__desc description">Lorem ipsum dolor sit amet consectetur</div>
+				</div>
+			</div>
+			
+		</div>
     </div>
 </body>
 </html>
