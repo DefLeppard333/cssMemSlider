@@ -182,12 +182,27 @@ body{
     }
     .slider__controls-wrapper{
         flex-direction: column-reverse;
+        align-items: normal;
     }
     .slider__controls{
+        margin: 0 auto;
         margin-bottom: 1rem;
     }
+    
+}
+@media (max-width: 400px){
     .slider__desc{
         font-size: 1rem; 
+    }    
+    .slider__controls > label > span {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    .slider__controls label {
+        width: 1rem;
+        height: 1rem;
     }
 }
+
+
     
