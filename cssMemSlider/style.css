@@ -105,7 +105,7 @@ body{
 #img3:checked ~ .slider__controls-wrapper.slider__controls>label:nth-child(3) span,
 #img4:checked ~ .slider__controls-wrapper .slider__controls>label:nth-child(4) span,
 #img5:checked ~ .slider__controls-wrapper .slider__controls>label:nth-child(5) span{
-	background-color: grey;
+	background-color: #ccc;
 }
 
 .slider__controls label {
