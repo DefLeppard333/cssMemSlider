@@ -102,7 +102,7 @@ body{
 
 #img1:checked ~ .slider__controls-wrapper .slider__controls>label:nth-child(1) span,
 #img2:checked ~ .slider__controls-wrapper .slider__controls>label:nth-child(2) span,
-#img3:checked ~ .slider__controls-wrapper.slider__controls>label:nth-child(3) span,
+#img3:checked ~ .slider__controls-wrapper .slider__controls>label:nth-child(3) span,
 #img4:checked ~ .slider__controls-wrapper .slider__controls>label:nth-child(4) span,
 #img5:checked ~ .slider__controls-wrapper .slider__controls>label:nth-child(5) span{
 	background-color: #ccc;
